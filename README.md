@@ -73,7 +73,7 @@ The primary contact's email and phone always come first in their arrays.
 ## How to run locally
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/tsj2003/Bitespeed-Backend-Task.git
 cd bitespeed-identity-reconciliation
 npm install
 npm run build
@@ -91,8 +91,8 @@ npm run dev
 
 Hosted on Render with a PostgreSQL database.
 
-**Base URL:** `<YOUR_RENDER_URL>`
+**Base URL:** `https://bitespeed-identity-2fha.onrender.com`
 
-Hit `<YOUR_RENDER_URL>/identify` with a POST request to test it out.
+Hit `https://bitespeed-identity-2fha.onrender.com/identify` with a POST request to test it out.
 
 The `DATABASE_URL` env var is set automatically when you attach a Postgres instance on Render.
