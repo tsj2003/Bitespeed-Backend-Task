@@ -91,8 +91,8 @@ npm run dev
 
 Hosted on Render with a PostgreSQL database.
 
-**Base URL:** `https://bitespeed-identity-2fha.onrender.com`
+**Base URL:** `https://bitespeed-identity-2fna.onrender.com`
 
-Hit `https://bitespeed-identity-2fha.onrender.com/identify` with a POST request to test it out.
+Hit `https://bitespeed-identity-2fna.onrender.com/identify` with a POST request to test it out.
 
 The `DATABASE_URL` env var is set automatically when you attach a Postgres instance on Render.
